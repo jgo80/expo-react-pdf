@@ -1,0 +1,12 @@
+diff --git a/src/winter/TextDecoder.ts b/src/winter/TextDecoder.ts
+index 979c0033c91b6296031c515210d92af766485689..00b074338949a1333553d64c5c3713c3a72e7bc4 100644
+--- a/src/winter/TextDecoder.ts
++++ b/src/winter/TextDecoder.ts
+@@ -146,6 +146,7 @@ const ENCODING_MAP: { heading: string; encodings: Encoding[] }[] = [
+     encodings: [
+       {
+         labels: [
++          'ascii',
+           'unicode-1-1-utf-8',
+           'unicode11utf8',
+           'unicode20utf8',
